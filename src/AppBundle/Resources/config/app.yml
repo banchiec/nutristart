@@ -1,0 +1,7 @@
+default:
+    path: / 
+    defaults: { _controller: AppBundle:Default:index}
+
+index:
+    path: /index 
+    defaults: { _controller: AppBundle:Default:index}

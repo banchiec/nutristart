@@ -1,0 +1,7 @@
+app:
+    resource: '@AppBundle/Resources/config/app.yml'
+    prefix:
+
+admin:
+    resource: '@AppBundle/Resources/config/admin.yml'
+    prefix: admin/

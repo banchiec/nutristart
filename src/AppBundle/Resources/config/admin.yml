@@ -1,0 +1,11 @@
+admin:
+  path: /
+  defaults: { _controller: AppBundle:Admin:index }
+
+admin_products:
+  path: /products
+  defaults: { _controller: AppBundle:Admin:admin_products }
+
+admin_clients:
+  path: /clients
+  defaults: { _controller: AppBundle:Admin:admin_clients }
