@@ -1,3 +1,7 @@
+app_usuario:
+    resource: "@AppBundle/Controller/UsuarioController.php"
+    type:     annotation
+
 app:
     resource: '@AppBundle/Resources/config/app.yml'
     prefix:
